@@ -2,7 +2,7 @@ body{
     font-family: Arial, Verdana;
     background-color:#000000;
     color: #FFFFFF;
-    margin: 20 20 0 20;
+    margin: 20px 20px 0px 20px;
 }
 
 h1{
@@ -56,12 +56,11 @@ div{
     border: none;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
-    h2{
-        color: #C4C4C4;
-    }
-    p{
-        color: #C4C4C4;
-    }
+    color: #C4C4C4;
+}
+
+.blue h2{
+    color: #C4C4C4;
 }
 
 .yellow{
@@ -71,9 +70,7 @@ div{
     border: none;
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
-    p{
-        color: #707070;
-    }
+    color: #707070;
 }
 
 .green{
@@ -88,9 +85,10 @@ div{
 footer{
     background-image: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
     border: 5px solid #FFFFFF;
-    p{
-        font-size: 20px;
-        text-align: right;
-        padding: 15px 15px 15px 0px;
-    }
+}
+
+footer p{
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
 }
